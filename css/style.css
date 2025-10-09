@@ -2,10 +2,9 @@
 @keyframes fadeUp {
     from {
         opacity: 0;
-        transform: translateY(2vi);
+        transform: translateY(2vw);
         /* começa mais abaixo */
     }
-
     to {
         opacity: 1;
         transform: translateY(0);
@@ -21,7 +20,7 @@ body {
 }
 
 /* Header Styles */
-header {
+.header-default {
     background-color: #fafafa;
     color: #104911;
     text-align: center;
@@ -36,7 +35,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 3vi;
+    gap: 3vw;
 }
 nav ul li a {
     text-decoration: none;
@@ -53,10 +52,10 @@ nav ul li a:hover {
 .logo {
     display: flex;
     align-items: center;
-    gap: 0.5vi;
+    gap: 0.5vw;
 }
 .logo img {
-    width: 3vi;
+    width: 3vw;
 }
 .logo span {
     font-weight: bold;
@@ -67,10 +66,10 @@ nav ul li a:hover {
 
 /* Button Styles */
 .btn_default {
-    background: linear-gradient(90deg, #104911, #4CAF50);
+    background: linear-gradient(99deg, #104911, #4CAF50);
     color: #fafafa;
-    padding: 1.5vb 1vi;
-    border-radius: 0.4vi;
+    padding: 1.5vh 1vw;
+    border-radius: 0.4vw;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     text-decoration: none;
     transition: 0.5s;
@@ -83,8 +82,8 @@ nav ul li a:hover {
 
 /* Main Content Styles */
 .hero {
-    width: 100vi;
-    height: 92vb;
+    width: 99vw;
+    height: 92vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -94,16 +93,17 @@ nav ul li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    box-shadow: inset 7px -7px 10px rgba(0, 0, 0, 0.05);
 }
 .hero-section {
-    width: 55vi;
+    width: 55vw;
     text-align: center;
     position: relative;
     color: #2d7d38;
 }
 .hero-section h1 {
     font-size: 4.5rem;
-    margin-bottom: 4vb;
+    margin-block-end: 4vh;
     animation: fadeUp 1.5s ease-out;
 }
 .hero-section h1 span {
@@ -113,7 +113,7 @@ nav ul li a:hover {
     font-size: 1.5rem;
     line-height: 2rem;
     line-height: 1.5;
-    margin-bottom: 8vb;
+    margin-block-end: 8vh;
     animation: fadeUp 1.5s ease-out;
 }
 .hero-section p span {
@@ -121,12 +121,12 @@ nav ul li a:hover {
     color: #F9A620;
 }
 .hero-section a {
-    margin: 0.2vi;
+    margin: 0.2vw;
 }
 .btn_second {
     background: rgba(255, 255, 255, 0.9);
     color: #104911;
-    padding: 1.5vb 2vi;
+    padding: 1.5vh 2vw;
     border-radius: 6px;
     text-decoration: none;
     transition: 0.5s;
@@ -141,15 +141,70 @@ nav ul li a:hover {
 
 /*Section-About */
 .section-about {
-    width: 100vi;
-    height: 100vb;
+    /* width: 99vw; */
+    height: 90vh;
     display: flex;
-    align-items: center;
+    padding-block-start: 12vh;
     justify-content: center;
-    background-color: #fefefe;
+    background-color: #fafafa;
+    gap: 3vw;
+    color: #2d7d38;
 }
 .section-about figure {
-    width: 55vi;
-    height: 80vb;
-    background-color: #2d7d38;
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    /* background-color: #ccc;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.05); */
+}
+.section-about figure img {
+    width: 35vw;
+}
+.section-about aside{
+    width: 45vw;
+    padding: 0 2vw;
+    /* background-color: aqua; */
+}
+.section-about aside h2 {
+    font-size: 3rem;
+    color: #2d7d38;
+    animation: fadeUp 1.5s ease-out;
+
+}
+.section-about h2 span {
+    color: #F9A620;
+}
+.section-about p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    line-height: 1.5;
+    margin-block-start: 2.5vh;
+    animation: fadeUp 1.5s ease-out;
+}
+.section-about aside li{
+    list-style: inside;
+    margin-block-start: 2.5vh;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #104911;
+}
+.section-about aside li::marker{
+    color: #F9A620;
+}
+
+/* Product Section */
+.section-products {
+    width: 99vw;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 10vh;
+    background-color: #fff;
+    gap: 5vh;
+    color: #2d7d38;
 }
