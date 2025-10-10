@@ -7,8 +7,15 @@ h2 {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   font-weight: bold;
+}
+.subtitle {
+    font-size: 3rem;
+    color: #2d7d38;
+    animation: fadeUp 1.5s ease-out;
+}
+.subtitle span {
+    color: #F9A620;
 }

@@ -4,17 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Qvitamin apresenta o Quality Mood, a bala de goma fitoterápica feita com ingredientes naturais como maracujá, acerola e camomila. Promove equilíbrio, bem-estar, mais disposição e tranquilidade no dia a dia. Descubra uma forma saudável e deliciosa de cuidar de você.">
+    <meta name="description"
+        content="Qvitamin apresenta o Quality Mood, a bala de goma fitoterápica feita com ingredientes naturais como maracujá, acerola e camomila. Promove equilíbrio, bem-estar, mais disposição e tranquilidade no dia a dia. Descubra uma forma saudável e deliciosa de cuidar de você.">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/default.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>QVitamin</title>
 </head>
 
-<body>
+<body id="home">
     <header class="header-default">
         <nav>
             <div class="logo">
@@ -22,9 +25,9 @@
                 <span>Vitamin</span>
             </div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Produtos</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#products">Produtos</a></li>
                 <li><a href="#">Beneficios</a></li>
                 <li><a href="#">Adiquira já</a></li>
                 <li><a href="#">Contato</a></li>
@@ -42,17 +45,18 @@
                 <a href="#" class="btn_second">Saiba Mais</a>
             </div>
         </section>
-        <section class="section-about">
+        <section class="section-about" id="about">
             <figure>
                 <img src="../assets/img/real-product.svg" alt="Imagem do produto Quality Mood">
             </figure>
             <aside>
-                <h2>Quality Mood:</h2>  
-                <h2><span>Mais do que um simples suplemento</span></h2>
+                <h2 class="subtitle">Quality Mood:</h2>
+                <h2 class="subtitle"><span>Mais do que um simples suplemento</span></h2>
                 <p>
-                    Nossa fórmula exclusiva combina o poder da natureza com a ciência moderna. Cada bala de goma 
-                    Quality Mood é cuidadosamente desenvolvida com ingredientes naturais selecionados para promover 
-                    o equilíbrio emocional e o bem-estar físico.
+                    Em um mundo onde o equilíbrio emocional e o cuidado com o corpo são essenciais, o Quality Mood foi
+                    desenvolvido para proporcionar o bem-estar que você merece. Nossa bala de goma fitoterápica é uma
+                    forma prática e deliciosa de incluir ingredientes naturais no seu dia a dia, ajudando a promover
+                    vitalidade, calma e equilíbrio, tanto no corpo quanto na mente.
                 </p>
                 <li>100% Ingredientes Naturais</li>
                 <li>Fórmula Fitoterápica Cientificamente Desenvolvida</li>
@@ -60,32 +64,39 @@
                 <li>Livre de Conservantes Artificiais</li>
             </aside>
         </section>
-        <section class="section-products">
+        <section class="section-products" id="products">
             <header>
-                <h2>
-                    Ingredientes naturais
-                    <span>para o Seu Equilíbrio</span>
-                </h2>
-                <p>Explore nossa linha de produtos desenvolvidos para atender às suas necessidades de bem-estar.</p>
+                <h2 class="subtitle">Ingredientes naturais</h2>
+                <h2 class="subtitle"><span>para o Seu Equilíbrio</span></h2>
+                <p>Cada ingrediente é cuidadosamente selecionado por suas propriedades únicas e benefícios</p>
+                <p>comprovados para o bem-estar físico e mental.</p>
             </header>
-            <div class="product-cards">
-                <article class="card">
-                    <img src="../assets/img/product-1.svg" alt="Imagem do produto Quality Mood">
-                    <h3>Quality Mood</h3>
-                    <p>Equilíbrio emocional e bem-estar físico com ingredientes naturais.</p>
+            <div>
+                <article>
+                    <img src="../assets/img/img_product_maracurjá.jpg" alt="Imagem do produto Quality Mood">
+                    <h2>Maracujá</h2>
+                    <p><span>Propriedades antioxidantes e calmantes</span></p>
+                    <p>Rico em flavonoides e compostos bioativos que promovem relaxamento natural e reduzem a ansiedade.
+                    </p>
                 </article>
-                <article class="card">
-                    <img src="../assets/img/product-2.svg" alt="Imagem do produto Quality Sleep">
-                    <h3>Quality Sleep</h3>
-                    <p>Promove um sono tranquilo e reparador, ajudando a reduzir o estresse e a ansiedade.</p>
+                <article>
+                    <img src="../assets/img/img_product_acerola_3.jpg" alt="Imagem do produto Quality Sleep">
+                    <h2>Acerola</h2>
+                    <p><span>Propriedades antioxidantes e calmantes</span></p>
+                    <p>Uma das maiores fontes naturais de vitamina C, fortalece o sistema imunológico e melhora o
+                        bem-estar.</p>
                 </article>
-                <article class="card">
-                    <img src="../assets/img/product-3.svg" alt="Imagem do produto Quality Focus">
-                    <h3>Quality Focus</h3>
-                    <p>Melhora a concentração e o desempenho cognitivo, ajudando você a se manter focado e produtivo.</p>
+                <article>
+                    <img src="../assets/img/img_product_camomila.jpg" alt="Imagem do produto Quality Focus">
+                    <h2>Camomila</h2>
+                    <p><span>Propriedades antioxidantes e calmantes</span></p>
+                    <p>Tradicionalmente usada por suas propriedades relaxantes, promove qualidade do sono e
+                        tranquilidade.</p>
                 </article>
             </div>
-            
+            <div class="btn_center">
+                <a href="#" class="btn_default">Saiba Mais sobre os Ingredientes</a>
+            </div>
         </section>
     </main>
     <footer>
