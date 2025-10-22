@@ -130,6 +130,7 @@ nav ul li a:hover {
     border-radius: 6px;
     text-decoration: none;
     transition: 0.5s;
+    border: solid 1px #cccccc59;    
 }
 .btn_second:hover {
     background: #F9A620;
@@ -205,7 +206,6 @@ nav ul li a:hover {
 .section-products p{
     font-size: 1.1rem;
     line-height: 1.75rem;
-    animation: fadeUp 1.5s ease-out;
 }
 .section-products div{
     width: 95vw;
@@ -289,12 +289,10 @@ nav ul li a:hover {
 }
 .section-results header p{
     font-size: 1.1rem;
-    animation: fadeUp 1.5s ease-out;
 }
 .section-results article p{
     font-size: 0.85rem;
     line-height: 1.25rem;
-    animation: fadeUp 1.5s ease-out;
 }
 .section-results article i{
     width: 5vw;
@@ -345,7 +343,6 @@ nav ul li a:hover {
 }
 .section-feedback header p{
     font-size: 1.1rem;
-    animation: fadeUp 1.5s ease-out;
 }
 .section-feedback div{
     width: 80vw;
@@ -444,7 +441,6 @@ nav ul li a:hover {
 }
 .section-team header p{
     font-size: 1.1rem;
-    animation: fadeUp 1.5s ease-out;
 }
 .section-team div{
     width: 75vw;
@@ -489,7 +485,7 @@ nav ul li a:hover {
 }
 .section-team article p{
     font-size: 1rem;
-    color: #F9A620;
+    color: #2d7d38;
     margin-block-end: 2vh;
 }
 .section-team article span a{
@@ -528,16 +524,15 @@ nav ul li a:hover {
     margin-block-end: 4vh;
 }
 .section-buy p{
-    font-size: 1.1rem;
-    animation: fadeUp 1.5s ease-out;
+    font-size: 1rem;
 }
 .section-buy .section-buy-content{
-    width: 50vw;
+    width: 45vw;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 3vw;
+    gap: 1vh;
     padding: 5vh 0;
     border-radius: 1vw;
     background-color: #fafafa;
@@ -549,9 +544,34 @@ nav ul li a:hover {
     color: #2d7d38;
 }
 .section-buy .section-buy-price h3{
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
-.section-buy .section-buy-price h3 span{
-    font-size: 1rem;
+.section-buy .section-buy-price h4{
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: -0.1rem;
+    margin-block: 2vh 0;
+}
+.section-buy .section-buy-price h4 span{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #7B9D87;
+    letter-spacing: normal;
+}
+.section-buy .section-buy-price p span{
     color: #F9A620;
+    font-size: 0.7rem;
+    color: #7B9D87;
+}
+.section-buy .section-buy-info{
+    display: flex;
+    align-items: center;
+    margin-block: 2vh 4vh;
+    font-size: 0.1rem;
+    gap: 0.3vw;
+}
+
+.section-buy .section-buy-info i{
+    margin: 0 0 0 1vw;
+    font-size: 0.6rem;
 }
