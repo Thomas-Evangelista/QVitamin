@@ -348,14 +348,14 @@ nav ul li a:hover {
     animation: fadeUp 1.5s ease-out;
 }
 .section-feedback div{
-    width: 95vw;
+    width: 80vw;
     padding: 5vh 0;
     display: flex;
     gap: 3vw;
     justify-content: space-between;
 }
 .section-feedback article{
-    width: 30vw;
+    width: 25vw;
     padding: 5vh 3vw;
     display: flex;
     flex-direction: column;
@@ -447,7 +447,7 @@ nav ul li a:hover {
     animation: fadeUp 1.5s ease-out;
 }
 .section-team div{
-    width: 80vw;
+    width: 75vw;
     padding: 5vh 0 8vh;
     display: flex;
     gap: 3vw;
@@ -469,7 +469,7 @@ nav ul li a:hover {
     transition: all 0.5s ease-out; 
 }
 .section-team article img{
-    width: 15vw;
+    width: 12vw;
     border-radius: 50vw;    
     border: solid 0.5rem #fafafa;
     background: linear-gradient(to bottom, #e8f5e9, #fdfcf8);
@@ -506,6 +506,7 @@ nav ul li a:hover {
     background-color: #F9A620;
 
 }
+
 /* Section buy*/
 .section-buy{
     width: 99vw;
@@ -514,12 +515,13 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-block: 10vh 0;
+    padding-block: 10vh 10vh;
     background: linear-gradient(to bottom, #e8f5e9, #fdfcf8);
     color: #2d7d38;
 }
 .section-buy header{
     width: 99vw;
+    margin-block-end: 5vh;
 }
 .section-buy h2 span{
     display: block;
@@ -528,4 +530,28 @@ nav ul li a:hover {
 .section-buy p{
     font-size: 1.1rem;
     animation: fadeUp 1.5s ease-out;
+}
+.section-buy .section-buy-content{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vw;
+    padding: 5vh 0;
+    border-radius: 1vw;
+    background-color: #fafafa;
+    border: solid 1px #cccccc59;
+}
+.section-buy .section-buy-content p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #2d7d38;
+}
+.section-buy .section-buy-price h3{
+    font-size: 2.5rem;
+}
+.section-buy .section-buy-price h3 span{
+    font-size: 1rem;
+    color: #F9A620;
 }
