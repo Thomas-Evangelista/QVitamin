@@ -567,7 +567,7 @@ nav ul li a:hover {
 
 .section-team article span a:hover {
     color: #f5ebe0;
-    background-color: #F9A620;
+    background: linear-gradient(90deg, #48c774 0%, #F9A620 100%);
 
 }
 
@@ -702,8 +702,8 @@ footer {
     margin-block-end: 2vh;
     color: #104911;
 }
-.footer-info span {
-     background: linear-gradient(90deg, #48c774 0%, #F9A620 100%);
+.footer-info h4 span {
+    background: linear-gradient(90deg, #48c774 0%, #F9A620 100%);
     -webkit-background-clip: text; /* aplica o gradiente somente no texto */
     -webkit-text-fill-color: transparent; /* torna o texto “vazado” */
     font-weight: 600;
@@ -715,5 +715,49 @@ footer {
     text-decoration: none;
     color: #7B9D87;
     font-size: 0.8rem;
-    transition: color 0.3s;
+}
+.footer-info span a {
+    color: #7B9D87;
+    font-size: 1.2rem;
+    gap: 1vw;
+    transition: all 0.8s ease-out;
+    background-color:#f5ebe0;
+    padding: 0.6vh 0.6vw;
+    border-radius: 50vw;
+}
+.footer-info span a:hover {
+    color: #f5ebe0;
+    background: linear-gradient(90deg, #48c774 0%, #F9A620 100%);
+
+}
+
+/*Botão Topo*/
+
+#btnTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    background: #7B9D87;
+    color: #fafafa;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+#btnTop:hover {
+    background: linear-gradient(90deg, #48c774 0%, #F9A620 100%);
+    transform: translateY(-0.5rem) !important;
+}
+#btnTop svg {
+    width: 24px;
+    height: 24px;
 }
